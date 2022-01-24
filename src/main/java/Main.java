@@ -134,7 +134,7 @@ public class Main {
                         Collections.sort(curList);
                         int[] properAnswer = getCandidatePair(curList, target);
                         if (properAnswer[0] == 0 && properAnswer[1] == 0) {
-                            System.out.printf("Test case#%d: Target of %d is NOT achievable.\n", i+1, target);
+                            System.out.printf("Test case#%d: Target %d is NOT achievable.\n", i+1, target);
                             target = 0;
                         } else {
                             System.out.printf("Test case#%d: Target %d achievable by %d and %d\n", i+1, target, properAnswer[0], properAnswer[1]);
